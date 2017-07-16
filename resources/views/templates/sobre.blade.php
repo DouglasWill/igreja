@@ -243,11 +243,11 @@
 				<div class="col-md-6">	
 					<div class="footer-menu">
 						<ul>
-							<li><a href="#">Home</a></li>
-                            <li><a href="#">Igreja</a></li>
-                            <li><a href="#">Fotos</a></li>
-							<li><a href="#">Mensagens</a></li>
-                            <li><a href="#">Contato</a></li>
+							<li><a href="{{ url('/') }}" >Home</a></li> 
+							<li><a href="{{ url('/sobre') }}">Igreja</a></li>
+							<li><a href="{{ url('/galerias') }}">Fotos</a></li>
+        					<li><a href="{{ url('/mensagens') }}">Mensagens</a></li>
+							<li><a href="{{ url('/contato') }}">Contato</a></li>
 						</ul>
 					</div>
 				</div>
@@ -263,11 +263,11 @@
 
     <h2>Menu</h2>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Igreja</a></li>
-        <li><a href="#">Fotos</a></li>
-		<li><a href="#">Mensagens</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="{{ url('/') }}" >Home</a></li> 
+		<li><a href="{{ url('/sobre') }}">Igreja</a></li>
+		<li><a href="{{ url('/galerias') }}">Fotos</a></li>
+        <li><a href="{{ url('/mensagens') }}">Mensagens</a></li>
+		<li><a href="{{ url('/contato') }}">Contato</a></li>
     </ul>
 </div>
 <!-- /offcanvas-menu -->

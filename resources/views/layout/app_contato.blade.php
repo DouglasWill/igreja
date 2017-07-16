@@ -69,11 +69,11 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse">
 								<ul class="nav navbar-nav navbar-right">
-									<li class="dropdown"><a href="index.html" >Home</a></li> 
-									<li><a href="about-us.html">Igreja</a></li>
-									<li><a href="services.html">Fotos</a></li>
-									<li><a href="services.html">Mensagens</a></li>
-									<span class="support-btn pull-right"><a href="#">Contato</a></span>
+									<li class="dropdown"><a href="{{ url('/') }}" >Home</a></li> 
+										<li><a href="{{ url('/sobre') }}">Igreja</a></li>
+										<li><a href="{{ url('/galerias') }}">Fotos</a></li>
+                                        <li><a href="{{ url('/mensagens') }}">Mensagens</a></li>
+										<span class="support-btn pull-right"> <a href="{{ url('/contato') }}">Contato</a></span>
 								</ul>
 							</div><!-- /navbar-collapse -->
 						</nav>
