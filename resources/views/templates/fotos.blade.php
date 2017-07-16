@@ -14,34 +14,11 @@
 			<div class="section-title"></div>
 
 			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="service-box">
-						<span class="icon-rounded flaticon-business70"></span>
-						<h2 class="service-title"><a href="{{ url('/foto') }}">Batismo</a></h2>
-						<p>Terceiro batismo em Águas de 2017 - Março.</p>
-						<p>29/04/2017</p>
-						<a class="btn btn-primary" href="{{ url('/foto') }}">Continue <i class="fa fa-long-arrow-right"></i></a>
-					</div><!-- //service-box -->
+				
 				</div>
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="service-box">
-						<span class="icon-rounded flaticon-business70"></span>
-						<h2 class="service-title"><a href="{{ url('/foto') }}">Louvorzão</a></h2>
-						<p>Terceiro Louvorzão de 2017 - Abril.</p>
-						<p>29/05/2017</p>
-						<a class="btn btn-primary" href="{{ url('/foto') }}">Continue <i class="fa fa-long-arrow-right"></i></a>
-					</div><!-- //service-box -->
-				</div>
-
-				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="service-box">
-						<span class="icon-rounded flaticon-business70"></span>
-						<h2 class="service-title"><a href="{{ url('/foto') }}">Aniversário da igreja</a></h2>
-						<p>Primeiro aniversário da igreja em 2017.</p>
-						<p>07/04/2017 até 09/04/2017.</p>
-						<a class="btn btn-primary" href="{{ url('/foto') }}">Continue <i class="fa fa-long-arrow-right"></i></a>
-					</div><!-- //service-box -->
+					
 				</div>
 			</div>
 		</div><!-- /container-fluid --> 

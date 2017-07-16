@@ -15,3 +15,7 @@ Route::get('/sobre', function () {
 Route::get('/galerias', function () {
     return view('templates.galeria');
 });
+
+Route::get('/foto', function () {
+    return view('templates.fotos');
+});
